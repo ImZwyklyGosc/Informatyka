@@ -81,7 +81,7 @@ elif inp == "OTo":
 elif inp == "PToB":
     a=float(input("KOD BŁĘDU:√5 (Brak wartości dla a). Proszę podać dane dla a:"))
     h=float(input("KOD BŁĘDU:√13 (Brak wartości dla h). Proszę podać dane dla h:"))
-    print(1/4*(a**2*3**1/2))
+    print(1/4*(a**2*math.sqrt(3)))
 
 elif inp == "OToB":
     a=float(input("KOD BŁĘDU:√5 (Brak wartości dla a). Proszę podać dane dla a:"))
