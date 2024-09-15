@@ -88,11 +88,11 @@ elif inp == "OToB":
     print(3*a)
 
 elif inp == "PKo":
-    r=float(input("KOD BŁĘDU:√21 (Brak wartości dla r). Proszę podać dane dla r:"))
+    r=float(input("KOD BŁĘDU:√22 (Brak wartości dla r). Proszę podać dane dla r:"))
     print(PI*r**2)
 
 elif inp == "OKo":
-    r=float(input("KOD BŁĘDU:√21 (Brak wartości dla r). Proszę podać dane dla r:"))
+    r=float(input("KOD BŁĘDU:√22 (Brak wartości dla r). Proszę podać dane dla r:"))
     print(2*PI*r)
 
 elif inp == "PEl":
