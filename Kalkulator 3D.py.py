@@ -1,4 +1,3 @@
-
 import math
 PI = math.pi
 
@@ -7,7 +6,7 @@ inp=input("KOD BŁĘDU:√2 (Brak danych). Proszę podać wzór:")
 if inp == "?":
     print("""
 Dostępne komendy:
--Osz:Objętość Sześcianu
+-OSz:Objętość Sześcianu
 -PPSz:Pole Powierzchni Sześcianu
 -OPr:Objętość Prostopadłościanu
 -PPPr:Obwód Prostokąta
