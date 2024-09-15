@@ -12,10 +12,10 @@ Dostępne komendy:
 -OPr:Obwód Prostokąta
 -PTa:Pole Trapezu
 -OTa:Obwód Trapezu
--Ptu:Pole Trójkąta
--OTu:Obwód Trójkąta
--PTrB:Obwód Trójkąta Równobocznego
--OTrB:Obwód Trójkąta Równobocznego
+-Pto:Pole Trójkąta
+-OTo:Obwód Trójkąta
+-PToB:Obwód Trójkąta Równobocznego
+-OToB:Obwód Trójkąta Równobocznego
 -PKo:Pole Koła
 -OKo:Obwód Koła
 -PEl:Pole Epipsy
@@ -68,22 +68,22 @@ elif inp == "OTa":
     d=float(input("KOD BŁĘDU:√8 (Brak wartości dla d). Proszę podać dane dla d:"))
     print(a+b+c+d)
 
-elif inp == "PTu":
+elif inp == "PTo":
     a=float(input("KOD BŁĘDU:√5 (Brak wartości dla a). Proszę podać dane dla a:"))
     h=float(input("KOD BŁĘDU:√13 (Brak wartości dla h). Proszę podać dane dla h:"))
     print(1/2*(a*h))
 
-elif inp == "OTu":
+elif inp == "OTo":
     a=float(input("KOD BŁĘDU:√5 (Brak wartości dla a). Proszę podać dane dla a:"))
     b=float(input("KOD BŁĘDU:√6 (Brak wartości dla b). Proszę podać dane dla b:"))
     print(a*b)
 
-elif inp == "PTuB":
+elif inp == "PToB":
     a=float(input("KOD BŁĘDU:√5 (Brak wartości dla a). Proszę podać dane dla a:"))
     h=float(input("KOD BŁĘDU:√13 (Brak wartości dla h). Proszę podać dane dla h:"))
     print(1/4*(a**2*3**1/2))
 
-elif inp == "OTuB":
+elif inp == "OToB":
     a=float(input("KOD BŁĘDU:√5 (Brak wartości dla a). Proszę podać dane dla a:"))
     print(3*a)
 
